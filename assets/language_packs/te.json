@@ -1,0 +1,221 @@
+{
+ "code": "te",
+ "letters": [
+  {
+   "symbol": "అ",
+   "sound": "a",
+   "emoji": "🍌",
+   "word": "అరటిపండు",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ఆ",
+   "sound": "aa",
+   "emoji": "🐄",
+   "word": "ఆవు",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఇ",
+   "sound": "i",
+   "emoji": "🏠",
+   "word": "ఇల్లు",
+   "english": "House",
+   "category": "nature"
+  },
+  {
+   "symbol": "ఈ",
+   "sound": "ii",
+   "emoji": "🪰",
+   "word": "ఈగ",
+   "english": "Fly",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఉ",
+   "sound": "u",
+   "emoji": "🐿️",
+   "word": "ఉడుత",
+   "english": "Squirrel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఊ",
+   "sound": "uu",
+   "emoji": "🏘️",
+   "word": "ఊరు",
+   "english": "Village",
+   "category": "nature"
+  },
+  {
+   "symbol": "ఎ",
+   "sound": "e",
+   "emoji": "🐭",
+   "word": "ఎలుక",
+   "english": "Mouse",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఏ",
+   "sound": "ee",
+   "emoji": "🐘",
+   "word": "ఏనుగు",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఒ",
+   "sound": "o",
+   "emoji": "🐪",
+   "word": "ఒంటె",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ఓ",
+   "sound": "oo",
+   "emoji": "🚢",
+   "word": "ఓడ",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "క",
+   "sound": "ka",
+   "emoji": "🐸",
+   "word": "కప్ప",
+   "english": "Frog",
+   "category": "animal"
+  },
+  {
+   "symbol": "గ",
+   "sound": "ga",
+   "emoji": "🕰️",
+   "word": "గడియారం",
+   "english": "Clock",
+   "category": "toy"
+  },
+  {
+   "symbol": "చ",
+   "sound": "cha",
+   "emoji": "🐟",
+   "word": "చేప",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "జ",
+   "sound": "ja",
+   "emoji": "🦌",
+   "word": "జింక",
+   "english": "Deer",
+   "category": "animal"
+  },
+  {
+   "symbol": "ట",
+   "sound": "ta",
+   "emoji": "🍅",
+   "word": "టమాటా",
+   "english": "Tomato",
+   "category": "food"
+  },
+  {
+   "symbol": "డ",
+   "sound": "da",
+   "emoji": "🥁",
+   "word": "డప్పు",
+   "english": "Drum",
+   "category": "toy"
+  },
+  {
+   "symbol": "త",
+   "sound": "tha",
+   "emoji": "🐢",
+   "word": "తాబేలు",
+   "english": "Turtle",
+   "category": "animal"
+  },
+  {
+   "symbol": "ద",
+   "sound": "da",
+   "emoji": "🪔",
+   "word": "దీపం",
+   "english": "Lamp",
+   "category": "nature"
+  },
+  {
+   "symbol": "న",
+   "sound": "na",
+   "emoji": "🦊",
+   "word": "నక్క",
+   "english": "Fox",
+   "category": "animal"
+  },
+  {
+   "symbol": "ప",
+   "sound": "pa",
+   "emoji": "⛵",
+   "word": "పడవ",
+   "english": "Boat",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "బ",
+   "sound": "ba",
+   "emoji": "⚽",
+   "word": "బంతి",
+   "english": "Ball",
+   "category": "toy"
+  },
+  {
+   "symbol": "మ",
+   "sound": "ma",
+   "emoji": "🥭",
+   "word": "మామిడిపండు",
+   "english": "Mango",
+   "category": "fruit"
+  },
+  {
+   "symbol": "య",
+   "sound": "ya",
+   "emoji": "🍎",
+   "word": "యాపిల్",
+   "english": "Apple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ర",
+   "sound": "ra",
+   "emoji": "🚂",
+   "word": "రైలు",
+   "english": "Train",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ల",
+   "sound": "la",
+   "emoji": "🚚",
+   "word": "లారీ",
+   "english": "Lorry",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "వ",
+   "sound": "va",
+   "emoji": "🍆",
+   "word": "వంకాయ",
+   "english": "Brinjal",
+   "category": "food"
+  },
+  {
+   "symbol": "స",
+   "sound": "sa",
+   "emoji": "🦁",
+   "word": "సింహం",
+   "english": "Lion",
+   "category": "animal"
+  }
+ ]
+}

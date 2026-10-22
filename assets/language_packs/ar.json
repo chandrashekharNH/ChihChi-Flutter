@@ -1,0 +1,229 @@
+{
+ "code": "ar",
+ "letters": [
+  {
+   "symbol": "ا",
+   "sound": "alif",
+   "emoji": "🐰",
+   "word": "أرنب",
+   "english": "Rabbit",
+   "category": "animal"
+  },
+  {
+   "symbol": "ب",
+   "sound": "baa",
+   "emoji": "🦆",
+   "word": "بطة",
+   "english": "Duck",
+   "category": "animal"
+  },
+  {
+   "symbol": "ت",
+   "sound": "taa",
+   "emoji": "🍎",
+   "word": "تفاحة",
+   "english": "Apple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ث",
+   "sound": "thaa",
+   "emoji": "🦊",
+   "word": "ثعلب",
+   "english": "Fox",
+   "category": "animal"
+  },
+  {
+   "symbol": "ج",
+   "sound": "jeem",
+   "emoji": "🐪",
+   "word": "جمل",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ح",
+   "sound": "haa",
+   "emoji": "🐴",
+   "word": "حصان",
+   "english": "Horse",
+   "category": "animal"
+  },
+  {
+   "symbol": "خ",
+   "sound": "khaa",
+   "emoji": "🐑",
+   "word": "خروف",
+   "english": "Sheep",
+   "category": "animal"
+  },
+  {
+   "symbol": "د",
+   "sound": "daal",
+   "emoji": "🐻",
+   "word": "دب",
+   "english": "Bear",
+   "category": "animal"
+  },
+  {
+   "symbol": "ذ",
+   "sound": "dhaal",
+   "emoji": "🌽",
+   "word": "ذرة",
+   "english": "Corn",
+   "category": "food"
+  },
+  {
+   "symbol": "ر",
+   "sound": "raa",
+   "emoji": "🪶",
+   "word": "ريشة",
+   "english": "Feather",
+   "category": "nature"
+  },
+  {
+   "symbol": "ز",
+   "sound": "zaay",
+   "emoji": "🦒",
+   "word": "زرافة",
+   "english": "Giraffe",
+   "category": "animal"
+  },
+  {
+   "symbol": "س",
+   "sound": "seen",
+   "emoji": "🐟",
+   "word": "سمكة",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "ش",
+   "sound": "sheen",
+   "emoji": "☀️",
+   "word": "شمس",
+   "english": "Sun",
+   "category": "nature"
+  },
+  {
+   "symbol": "ص",
+   "sound": "saad",
+   "emoji": "🦅",
+   "word": "صقر",
+   "english": "Falcon",
+   "category": "animal"
+  },
+  {
+   "symbol": "ض",
+   "sound": "daad",
+   "emoji": "🐸",
+   "word": "ضفدع",
+   "english": "Frog",
+   "category": "animal"
+  },
+  {
+   "symbol": "ط",
+   "sound": "taa",
+   "emoji": "✈️",
+   "word": "طائرة",
+   "english": "Aeroplane",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ظ",
+   "sound": "dhaa",
+   "emoji": "🦌",
+   "word": "ظبي",
+   "english": "Gazelle",
+   "category": "animal"
+  },
+  {
+   "symbol": "ع",
+   "sound": "ain",
+   "emoji": "🍇",
+   "word": "عنب",
+   "english": "Grapes",
+   "category": "fruit"
+  },
+  {
+   "symbol": "غ",
+   "sound": "ghain",
+   "emoji": "☁️",
+   "word": "غيمة",
+   "english": "Cloud",
+   "category": "nature"
+  },
+  {
+   "symbol": "ف",
+   "sound": "faa",
+   "emoji": "🐘",
+   "word": "فيل",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "ق",
+   "sound": "qaaf",
+   "emoji": "🐱",
+   "word": "قطة",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "ك",
+   "sound": "kaaf",
+   "emoji": "🐶",
+   "word": "كلب",
+   "english": "Dog",
+   "category": "animal"
+  },
+  {
+   "symbol": "ل",
+   "sound": "laam",
+   "emoji": "🍋",
+   "word": "ليمون",
+   "english": "Lemon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "م",
+   "sound": "meem",
+   "emoji": "🍌",
+   "word": "موز",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ن",
+   "sound": "noon",
+   "emoji": "🐝",
+   "word": "نحلة",
+   "english": "Bee",
+   "category": "animal"
+  },
+  {
+   "symbol": "ه",
+   "sound": "haa",
+   "emoji": "🎁",
+   "word": "هدية",
+   "english": "Gift",
+   "category": "toy"
+  },
+  {
+   "symbol": "و",
+   "sound": "waaw",
+   "emoji": "🌹",
+   "word": "وردة",
+   "english": "Rose",
+   "category": "nature"
+  },
+  {
+   "symbol": "ي",
+   "sound": "yaa",
+   "emoji": "✋",
+   "word": "يد",
+   "english": "Hand",
+   "category": "nature"
+  }
+ ]
+}

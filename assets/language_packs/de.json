@@ -1,0 +1,213 @@
+{
+ "code": "de",
+ "letters": [
+  {
+   "symbol": "A",
+   "sound": "a",
+   "emoji": "🍎",
+   "word": "Apfel",
+   "english": "Apple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "B",
+   "sound": "be",
+   "emoji": "🍌",
+   "word": "Banane",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "C",
+   "sound": "ce",
+   "emoji": "🤡",
+   "word": "Clown",
+   "english": "Clown",
+   "category": "toy"
+  },
+  {
+   "symbol": "D",
+   "sound": "de",
+   "emoji": "🐬",
+   "word": "Delfin",
+   "english": "Dolphin",
+   "category": "animal"
+  },
+  {
+   "symbol": "E",
+   "sound": "e",
+   "emoji": "🐘",
+   "word": "Elefant",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "F",
+   "sound": "ef",
+   "emoji": "🐟",
+   "word": "Fisch",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "G",
+   "sound": "ge",
+   "emoji": "🦒",
+   "word": "Giraffe",
+   "english": "Giraffe",
+   "category": "animal"
+  },
+  {
+   "symbol": "H",
+   "sound": "ha",
+   "emoji": "🐶",
+   "word": "Hund",
+   "english": "Dog",
+   "category": "animal"
+  },
+  {
+   "symbol": "I",
+   "sound": "i",
+   "emoji": "🦔",
+   "word": "Igel",
+   "english": "Hedgehog",
+   "category": "animal"
+  },
+  {
+   "symbol": "J",
+   "sound": "jot",
+   "emoji": "🧥",
+   "word": "Jacke",
+   "english": "Jacket",
+   "category": "toy"
+  },
+  {
+   "symbol": "K",
+   "sound": "ka",
+   "emoji": "🐱",
+   "word": "Katze",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "L",
+   "sound": "el",
+   "emoji": "🦁",
+   "word": "Löwe",
+   "english": "Lion",
+   "category": "animal"
+  },
+  {
+   "symbol": "M",
+   "sound": "em",
+   "emoji": "🐭",
+   "word": "Maus",
+   "english": "Mouse",
+   "category": "animal"
+  },
+  {
+   "symbol": "N",
+   "sound": "en",
+   "emoji": "👃",
+   "word": "Nase",
+   "english": "Nose",
+   "category": "nature"
+  },
+  {
+   "symbol": "O",
+   "sound": "o",
+   "emoji": "🍊",
+   "word": "Orange",
+   "english": "Orange",
+   "category": "fruit"
+  },
+  {
+   "symbol": "P",
+   "sound": "pe",
+   "emoji": "🐧",
+   "word": "Pinguin",
+   "english": "Penguin",
+   "category": "animal"
+  },
+  {
+   "symbol": "Q",
+   "sound": "ku",
+   "emoji": "🪼",
+   "word": "Qualle",
+   "english": "Jellyfish",
+   "category": "animal"
+  },
+  {
+   "symbol": "R",
+   "sound": "er",
+   "emoji": "🚀",
+   "word": "Rakete",
+   "english": "Rocket",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "S",
+   "sound": "es",
+   "emoji": "☀️",
+   "word": "Sonne",
+   "english": "Sun",
+   "category": "nature"
+  },
+  {
+   "symbol": "T",
+   "sound": "te",
+   "emoji": "🐯",
+   "word": "Tiger",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "U",
+   "sound": "u",
+   "emoji": "⏰",
+   "word": "Uhr",
+   "english": "Clock",
+   "category": "toy"
+  },
+  {
+   "symbol": "V",
+   "sound": "fau",
+   "emoji": "🐦",
+   "word": "Vogel",
+   "english": "Bird",
+   "category": "animal"
+  },
+  {
+   "symbol": "W",
+   "sound": "we",
+   "emoji": "🐋",
+   "word": "Wal",
+   "english": "Whale",
+   "category": "animal"
+  },
+  {
+   "symbol": "X",
+   "sound": "iks",
+   "emoji": "🎼",
+   "word": "Xylophon",
+   "english": "Xylophone",
+   "category": "toy"
+  },
+  {
+   "symbol": "Y",
+   "sound": "ypsilon",
+   "emoji": "🐃",
+   "word": "Yak",
+   "english": "Yak",
+   "category": "animal"
+  },
+  {
+   "symbol": "Z",
+   "sound": "zet",
+   "emoji": "🦓",
+   "word": "Zebra",
+   "english": "Zebra",
+   "category": "animal"
+  }
+ ]
+}

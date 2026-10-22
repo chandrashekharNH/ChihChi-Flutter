@@ -1,0 +1,229 @@
+{
+ "code": "ml",
+ "letters": [
+  {
+   "symbol": "അ",
+   "sound": "a",
+   "emoji": "🐿️",
+   "word": "അണ്ണാൻ",
+   "english": "Squirrel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ആ",
+   "sound": "aa",
+   "emoji": "🐘",
+   "word": "ആന",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഇ",
+   "sound": "i",
+   "emoji": "🍃",
+   "word": "ഇല",
+   "english": "Leaf",
+   "category": "nature"
+  },
+  {
+   "symbol": "ഈ",
+   "sound": "ii",
+   "emoji": "🪰",
+   "word": "ഈച്ച",
+   "english": "Fly",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഉ",
+   "sound": "u",
+   "emoji": "🐜",
+   "word": "ഉറുമ്പ്",
+   "english": "Ant",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഊ",
+   "sound": "uu",
+   "emoji": "🛝",
+   "word": "ഊഞ്ഞാൽ",
+   "english": "Swing",
+   "category": "toy"
+  },
+  {
+   "symbol": "എ",
+   "sound": "e",
+   "emoji": "🐭",
+   "word": "എലി",
+   "english": "Mouse",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഏ",
+   "sound": "ee",
+   "emoji": "🪜",
+   "word": "ഏണി",
+   "english": "Ladder",
+   "category": "toy"
+  },
+  {
+   "symbol": "ഒ",
+   "sound": "o",
+   "emoji": "🐪",
+   "word": "ഒട്ടകം",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഓ",
+   "sound": "oo",
+   "emoji": "🦎",
+   "word": "ഓന്ത്",
+   "english": "Chameleon",
+   "category": "animal"
+  },
+  {
+   "symbol": "ക",
+   "sound": "ka",
+   "emoji": "🚢",
+   "word": "കപ്പൽ",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ഗ",
+   "sound": "ga",
+   "emoji": "🌾",
+   "word": "ഗോതമ്പ്",
+   "english": "Wheat",
+   "category": "food"
+  },
+  {
+   "symbol": "ച",
+   "sound": "cha",
+   "emoji": "🌺",
+   "word": "ചെമ്പരത്തി",
+   "english": "Hibiscus",
+   "category": "nature"
+  },
+  {
+   "symbol": "ജ",
+   "sound": "ja",
+   "emoji": "🪟",
+   "word": "ജനൽ",
+   "english": "Window",
+   "category": "toy"
+  },
+  {
+   "symbol": "ട",
+   "sound": "ta",
+   "emoji": "🚕",
+   "word": "ടാക്സി",
+   "english": "Taxi",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ഡ",
+   "sound": "da",
+   "emoji": "🐬",
+   "word": "ഡോൾഫിൻ",
+   "english": "Dolphin",
+   "category": "animal"
+  },
+  {
+   "symbol": "ത",
+   "sound": "tha",
+   "emoji": "🦜",
+   "word": "തത്ത",
+   "english": "Parrot",
+   "category": "animal"
+  },
+  {
+   "symbol": "ദ",
+   "sound": "da",
+   "emoji": "🥞",
+   "word": "ദോശ",
+   "english": "Dosa",
+   "category": "food"
+  },
+  {
+   "symbol": "ന",
+   "sound": "na",
+   "emoji": "⭐",
+   "word": "നക്ഷത്രം",
+   "english": "Star",
+   "category": "nature"
+  },
+  {
+   "symbol": "പ",
+   "sound": "pa",
+   "emoji": "🐄",
+   "word": "പശു",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "ബ",
+   "sound": "ba",
+   "emoji": "🚌",
+   "word": "ബസ്",
+   "english": "Bus",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "മ",
+   "sound": "ma",
+   "emoji": "🦚",
+   "word": "മയിൽ",
+   "english": "Peacock",
+   "category": "animal"
+  },
+  {
+   "symbol": "യ",
+   "sound": "ya",
+   "emoji": "🤖",
+   "word": "യന്ത്രമനുഷ്യൻ",
+   "english": "Robot",
+   "category": "toy"
+  },
+  {
+   "symbol": "ര",
+   "sound": "ra",
+   "emoji": "👑",
+   "word": "രാജാവ്",
+   "english": "King",
+   "category": "toy"
+  },
+  {
+   "symbol": "ല",
+   "sound": "la",
+   "emoji": "🍬",
+   "word": "ലഡ്ഡു",
+   "english": "Laddu",
+   "category": "food"
+  },
+  {
+   "symbol": "വ",
+   "sound": "va",
+   "emoji": "🍌",
+   "word": "വാഴപ്പഴം",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "സ",
+   "sound": "sa",
+   "emoji": "🦁",
+   "word": "സിംഹം",
+   "english": "Lion",
+   "category": "animal"
+  },
+  {
+   "symbol": "ഹ",
+   "sound": "ha",
+   "emoji": "🦢",
+   "word": "ഹംസം",
+   "english": "Swan",
+   "category": "animal"
+  }
+ ]
+}

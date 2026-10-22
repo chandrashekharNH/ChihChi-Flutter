@@ -1,0 +1,245 @@
+{
+ "code": "gu",
+ "letters": [
+  {
+   "symbol": "અ",
+   "sound": "a",
+   "emoji": "🍍",
+   "word": "અનાનસ",
+   "english": "Pineapple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "આ",
+   "sound": "aa",
+   "emoji": "🚂",
+   "word": "આગગાડી",
+   "english": "Train",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ઇ",
+   "sound": "i",
+   "emoji": "🐛",
+   "word": "ઇયળ",
+   "english": "Caterpillar",
+   "category": "animal"
+  },
+  {
+   "symbol": "ઈ",
+   "sound": "ii",
+   "emoji": "🥚",
+   "word": "ઈંડું",
+   "english": "Egg",
+   "category": "food"
+  },
+  {
+   "symbol": "ઉ",
+   "sound": "u",
+   "emoji": "🐭",
+   "word": "ઉંદર",
+   "english": "Mouse",
+   "category": "animal"
+  },
+  {
+   "symbol": "ઊ",
+   "sound": "uu",
+   "emoji": "🐪",
+   "word": "ઊંટ",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "એ",
+   "sound": "e",
+   "emoji": "✈️",
+   "word": "એરોપ્લેન",
+   "english": "Aeroplane",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ઓ",
+   "sound": "o",
+   "emoji": "🛏️",
+   "word": "ઓશીકું",
+   "english": "Pillow",
+   "category": "toy"
+  },
+  {
+   "symbol": "ઔ",
+   "sound": "au",
+   "emoji": "💊",
+   "word": "ઔષધ",
+   "english": "Medicine",
+   "category": "toy"
+  },
+  {
+   "symbol": "ક",
+   "sound": "ka",
+   "emoji": "🪷",
+   "word": "કમળ",
+   "english": "Lotus",
+   "category": "nature"
+  },
+  {
+   "symbol": "ખ",
+   "sound": "kha",
+   "emoji": "🪑",
+   "word": "ખુરશી",
+   "english": "Chair",
+   "category": "toy"
+  },
+  {
+   "symbol": "ગ",
+   "sound": "ga",
+   "emoji": "🐄",
+   "word": "ગાય",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "ઘ",
+   "sound": "gha",
+   "emoji": "🏠",
+   "word": "ઘર",
+   "english": "House",
+   "category": "nature"
+  },
+  {
+   "symbol": "ચ",
+   "sound": "cha",
+   "emoji": "🐦",
+   "word": "ચકલી",
+   "english": "Sparrow",
+   "category": "animal"
+  },
+  {
+   "symbol": "છ",
+   "sound": "chha",
+   "emoji": "☂️",
+   "word": "છત્રી",
+   "english": "Umbrella",
+   "category": "toy"
+  },
+  {
+   "symbol": "જ",
+   "sound": "ja",
+   "emoji": "🚢",
+   "word": "જહાજ",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ઝ",
+   "sound": "jha",
+   "emoji": "🌳",
+   "word": "ઝાડ",
+   "english": "Tree",
+   "category": "nature"
+  },
+  {
+   "symbol": "ટ",
+   "sound": "ta",
+   "emoji": "🍅",
+   "word": "ટામેટું",
+   "english": "Tomato",
+   "category": "food"
+  },
+  {
+   "symbol": "ડ",
+   "sound": "da",
+   "emoji": "🥁",
+   "word": "ડમરુ",
+   "english": "Damru",
+   "category": "toy"
+  },
+  {
+   "symbol": "ત",
+   "sound": "ta",
+   "emoji": "🍉",
+   "word": "તરબૂચ",
+   "english": "Watermelon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "દ",
+   "sound": "da",
+   "emoji": "⚽",
+   "word": "દડો",
+   "english": "Ball",
+   "category": "toy"
+  },
+  {
+   "symbol": "ન",
+   "sound": "na",
+   "emoji": "🚰",
+   "word": "નળ",
+   "english": "Tap",
+   "category": "toy"
+  },
+  {
+   "symbol": "પ",
+   "sound": "pa",
+   "emoji": "🪁",
+   "word": "પતંગ",
+   "english": "Kite",
+   "category": "toy"
+  },
+  {
+   "symbol": "ફ",
+   "sound": "pha",
+   "emoji": "🌸",
+   "word": "ફૂલ",
+   "english": "Flower",
+   "category": "nature"
+  },
+  {
+   "symbol": "બ",
+   "sound": "ba",
+   "emoji": "🦆",
+   "word": "બતક",
+   "english": "Duck",
+   "category": "animal"
+  },
+  {
+   "symbol": "ભ",
+   "sound": "bha",
+   "emoji": "🪀",
+   "word": "ભમરડો",
+   "english": "Spinning Top",
+   "category": "toy"
+  },
+  {
+   "symbol": "મ",
+   "sound": "ma",
+   "emoji": "🐟",
+   "word": "માછલી",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "વ",
+   "sound": "va",
+   "emoji": "🐯",
+   "word": "વાઘ",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "સ",
+   "sound": "sa",
+   "emoji": "🐰",
+   "word": "સસલું",
+   "english": "Rabbit",
+   "category": "animal"
+  },
+  {
+   "symbol": "હ",
+   "sound": "ha",
+   "emoji": "🐘",
+   "word": "હાથી",
+   "english": "Elephant",
+   "category": "animal"
+  }
+ ]
+}

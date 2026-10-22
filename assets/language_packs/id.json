@@ -1,0 +1,197 @@
+{
+ "code": "id",
+ "letters": [
+  {
+   "symbol": "A",
+   "sound": "a",
+   "emoji": "🐔",
+   "word": "ayam",
+   "english": "Chicken",
+   "category": "animal"
+  },
+  {
+   "symbol": "B",
+   "sound": "be",
+   "emoji": "🦆",
+   "word": "bebek",
+   "english": "Duck",
+   "category": "animal"
+  },
+  {
+   "symbol": "C",
+   "sound": "ce",
+   "emoji": "🦎",
+   "word": "cicak",
+   "english": "Gecko",
+   "category": "animal"
+  },
+  {
+   "symbol": "D",
+   "sound": "de",
+   "emoji": "🐑",
+   "word": "domba",
+   "english": "Sheep",
+   "category": "animal"
+  },
+  {
+   "symbol": "E",
+   "sound": "e",
+   "emoji": "🦅",
+   "word": "elang",
+   "english": "Eagle",
+   "category": "animal"
+  },
+  {
+   "symbol": "F",
+   "sound": "ef",
+   "emoji": "📷",
+   "word": "foto",
+   "english": "Photo",
+   "category": "toy"
+  },
+  {
+   "symbol": "G",
+   "sound": "ge",
+   "emoji": "🐘",
+   "word": "gajah",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "H",
+   "sound": "ha",
+   "emoji": "🐯",
+   "word": "harimau",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "I",
+   "sound": "i",
+   "emoji": "🐟",
+   "word": "ikan",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "J",
+   "sound": "je",
+   "emoji": "🍊",
+   "word": "jeruk",
+   "english": "Orange",
+   "category": "fruit"
+  },
+  {
+   "symbol": "K",
+   "sound": "ka",
+   "emoji": "🐱",
+   "word": "kucing",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "L",
+   "sound": "el",
+   "emoji": "🐝",
+   "word": "lebah",
+   "english": "Bee",
+   "category": "animal"
+  },
+  {
+   "symbol": "M",
+   "sound": "em",
+   "emoji": "🐒",
+   "word": "monyet",
+   "english": "Monkey",
+   "category": "animal"
+  },
+  {
+   "symbol": "N",
+   "sound": "en",
+   "emoji": "🍍",
+   "word": "nanas",
+   "english": "Pineapple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "O",
+   "sound": "o",
+   "emoji": "🐪",
+   "word": "onta",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "P",
+   "sound": "pe",
+   "emoji": "🍌",
+   "word": "pisang",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "R",
+   "sound": "er",
+   "emoji": "🦌",
+   "word": "rusa",
+   "english": "Deer",
+   "category": "animal"
+  },
+  {
+   "symbol": "S",
+   "sound": "es",
+   "emoji": "🐄",
+   "word": "sapi",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "T",
+   "sound": "te",
+   "emoji": "🎩",
+   "word": "topi",
+   "english": "Hat",
+   "category": "toy"
+  },
+  {
+   "symbol": "U",
+   "sound": "u",
+   "emoji": "🐍",
+   "word": "ular",
+   "english": "Snake",
+   "category": "animal"
+  },
+  {
+   "symbol": "V",
+   "sound": "fe",
+   "emoji": "🏺",
+   "word": "vas",
+   "english": "Vase",
+   "category": "toy"
+  },
+  {
+   "symbol": "W",
+   "sound": "we",
+   "emoji": "🥕",
+   "word": "wortel",
+   "english": "Carrot",
+   "category": "food"
+  },
+  {
+   "symbol": "Y",
+   "sound": "ye",
+   "emoji": "🪀",
+   "word": "yoyo",
+   "english": "Yo-yo",
+   "category": "toy"
+  },
+  {
+   "symbol": "Z",
+   "sound": "zet",
+   "emoji": "🦓",
+   "word": "zebra",
+   "english": "Zebra",
+   "category": "animal"
+  }
+ ]
+}

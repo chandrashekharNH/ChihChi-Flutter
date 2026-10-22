@@ -1,0 +1,349 @@
+{
+ "code": "ja",
+ "letters": [
+  {
+   "symbol": "あ",
+   "sound": "a",
+   "emoji": "🐜",
+   "word": "あり",
+   "english": "Ant",
+   "category": "animal"
+  },
+  {
+   "symbol": "い",
+   "sound": "i",
+   "emoji": "🐶",
+   "word": "いぬ",
+   "english": "Dog",
+   "category": "animal"
+  },
+  {
+   "symbol": "う",
+   "sound": "u",
+   "emoji": "🐰",
+   "word": "うさぎ",
+   "english": "Rabbit",
+   "category": "animal"
+  },
+  {
+   "symbol": "え",
+   "sound": "e",
+   "emoji": "✏️",
+   "word": "えんぴつ",
+   "english": "Pencil",
+   "category": "toy"
+  },
+  {
+   "symbol": "お",
+   "sound": "o",
+   "emoji": "🍙",
+   "word": "おにぎり",
+   "english": "Rice ball",
+   "category": "food"
+  },
+  {
+   "symbol": "か",
+   "sound": "ka",
+   "emoji": "🐢",
+   "word": "かめ",
+   "english": "Turtle",
+   "category": "animal"
+  },
+  {
+   "symbol": "き",
+   "sound": "ki",
+   "emoji": "🦒",
+   "word": "きりん",
+   "english": "Giraffe",
+   "category": "animal"
+  },
+  {
+   "symbol": "く",
+   "sound": "ku",
+   "emoji": "🐻",
+   "word": "くま",
+   "english": "Bear",
+   "category": "animal"
+  },
+  {
+   "symbol": "け",
+   "sound": "ke",
+   "emoji": "🐛",
+   "word": "けむし",
+   "english": "Caterpillar",
+   "category": "animal"
+  },
+  {
+   "symbol": "こ",
+   "sound": "ko",
+   "emoji": "🐨",
+   "word": "こあら",
+   "english": "Koala",
+   "category": "animal"
+  },
+  {
+   "symbol": "さ",
+   "sound": "sa",
+   "emoji": "🐟",
+   "word": "さかな",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "し",
+   "sound": "shi",
+   "emoji": "🦌",
+   "word": "しか",
+   "english": "Deer",
+   "category": "animal"
+  },
+  {
+   "symbol": "す",
+   "sound": "su",
+   "emoji": "🍉",
+   "word": "すいか",
+   "english": "Watermelon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "せ",
+   "sound": "se",
+   "emoji": "🧥",
+   "word": "せーたー",
+   "english": "Sweater",
+   "category": "toy"
+  },
+  {
+   "symbol": "そ",
+   "sound": "so",
+   "emoji": "🌤️",
+   "word": "そら",
+   "english": "Sky",
+   "category": "nature"
+  },
+  {
+   "symbol": "た",
+   "sound": "ta",
+   "emoji": "🥚",
+   "word": "たまご",
+   "english": "Egg",
+   "category": "food"
+  },
+  {
+   "symbol": "ち",
+   "sound": "chi",
+   "emoji": "🦋",
+   "word": "ちょう",
+   "english": "Butterfly",
+   "category": "animal"
+  },
+  {
+   "symbol": "つ",
+   "sound": "tsu",
+   "emoji": "🌙",
+   "word": "つき",
+   "english": "Moon",
+   "category": "nature"
+  },
+  {
+   "symbol": "て",
+   "sound": "te",
+   "emoji": "✉️",
+   "word": "てがみ",
+   "english": "Letter",
+   "category": "toy"
+  },
+  {
+   "symbol": "と",
+   "sound": "to",
+   "emoji": "🐦",
+   "word": "とり",
+   "english": "Bird",
+   "category": "animal"
+  },
+  {
+   "symbol": "な",
+   "sound": "na",
+   "emoji": "🍆",
+   "word": "なす",
+   "english": "Eggplant",
+   "category": "food"
+  },
+  {
+   "symbol": "に",
+   "sound": "ni",
+   "emoji": "🥕",
+   "word": "にんじん",
+   "english": "Carrot",
+   "category": "food"
+  },
+  {
+   "symbol": "ぬ",
+   "sound": "nu",
+   "emoji": "🧸",
+   "word": "ぬいぐるみ",
+   "english": "Stuffed toy",
+   "category": "toy"
+  },
+  {
+   "symbol": "ね",
+   "sound": "ne",
+   "emoji": "🐱",
+   "word": "ねこ",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "の",
+   "sound": "no",
+   "emoji": "🪚",
+   "word": "のこぎり",
+   "english": "Saw",
+   "category": "toy"
+  },
+  {
+   "symbol": "は",
+   "sound": "ha",
+   "emoji": "🌸",
+   "word": "はな",
+   "english": "Flower",
+   "category": "nature"
+  },
+  {
+   "symbol": "ひ",
+   "sound": "hi",
+   "emoji": "✈️",
+   "word": "ひこうき",
+   "english": "Aeroplane",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ふ",
+   "sound": "fu",
+   "emoji": "🚢",
+   "word": "ふね",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "へ",
+   "sound": "he",
+   "emoji": "🐍",
+   "word": "へび",
+   "english": "Snake",
+   "category": "animal"
+  },
+  {
+   "symbol": "ほ",
+   "sound": "ho",
+   "emoji": "⭐",
+   "word": "ほし",
+   "english": "Star",
+   "category": "nature"
+  },
+  {
+   "symbol": "ま",
+   "sound": "ma",
+   "emoji": "🪟",
+   "word": "まど",
+   "english": "Window",
+   "category": "toy"
+  },
+  {
+   "symbol": "み",
+   "sound": "mi",
+   "emoji": "🍊",
+   "word": "みかん",
+   "english": "Mandarin",
+   "category": "fruit"
+  },
+  {
+   "symbol": "む",
+   "sound": "mu",
+   "emoji": "🐞",
+   "word": "むし",
+   "english": "Bug",
+   "category": "animal"
+  },
+  {
+   "symbol": "め",
+   "sound": "me",
+   "emoji": "👓",
+   "word": "めがね",
+   "english": "Glasses",
+   "category": "toy"
+  },
+  {
+   "symbol": "も",
+   "sound": "mo",
+   "emoji": "🍑",
+   "word": "もも",
+   "english": "Peach",
+   "category": "fruit"
+  },
+  {
+   "symbol": "や",
+   "sound": "ya",
+   "emoji": "⛰️",
+   "word": "やま",
+   "english": "Mountain",
+   "category": "nature"
+  },
+  {
+   "symbol": "ゆ",
+   "sound": "yu",
+   "emoji": "❄️",
+   "word": "ゆき",
+   "english": "Snow",
+   "category": "nature"
+  },
+  {
+   "symbol": "よ",
+   "sound": "yo",
+   "emoji": "⛵",
+   "word": "よっと",
+   "english": "Yacht",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ら",
+   "sound": "ra",
+   "emoji": "🦁",
+   "word": "らいおん",
+   "english": "Lion",
+   "category": "animal"
+  },
+  {
+   "symbol": "り",
+   "sound": "ri",
+   "emoji": "🍎",
+   "word": "りんご",
+   "english": "Apple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "れ",
+   "sound": "re",
+   "emoji": "🍋",
+   "word": "れもん",
+   "english": "Lemon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ろ",
+   "sound": "ro",
+   "emoji": "🚀",
+   "word": "ろけっと",
+   "english": "Rocket",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "わ",
+   "sound": "wa",
+   "emoji": "🐊",
+   "word": "わに",
+   "english": "Crocodile",
+   "category": "animal"
+  }
+ ]
+}

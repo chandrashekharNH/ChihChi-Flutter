@@ -1,0 +1,229 @@
+{
+ "code": "zh",
+ "letters": [
+  {
+   "symbol": "鱼",
+   "sound": "yú",
+   "emoji": "🐟",
+   "word": "鱼",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "月",
+   "sound": "yuè",
+   "emoji": "🌙",
+   "word": "月亮",
+   "english": "Moon",
+   "category": "nature"
+  },
+  {
+   "symbol": "日",
+   "sound": "rì",
+   "emoji": "☀️",
+   "word": "太阳",
+   "english": "Sun",
+   "category": "nature"
+  },
+  {
+   "symbol": "山",
+   "sound": "shān",
+   "emoji": "⛰️",
+   "word": "山",
+   "english": "Mountain",
+   "category": "nature"
+  },
+  {
+   "symbol": "水",
+   "sound": "shuǐ",
+   "emoji": "💧",
+   "word": "水",
+   "english": "Water",
+   "category": "nature"
+  },
+  {
+   "symbol": "火",
+   "sound": "huǒ",
+   "emoji": "🔥",
+   "word": "火",
+   "english": "Fire",
+   "category": "nature"
+  },
+  {
+   "symbol": "木",
+   "sound": "mù",
+   "emoji": "🌳",
+   "word": "树木",
+   "english": "Tree",
+   "category": "nature"
+  },
+  {
+   "symbol": "花",
+   "sound": "huā",
+   "emoji": "🌸",
+   "word": "花",
+   "english": "Flower",
+   "category": "nature"
+  },
+  {
+   "symbol": "牛",
+   "sound": "niú",
+   "emoji": "🐄",
+   "word": "牛",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "马",
+   "sound": "mǎ",
+   "emoji": "🐴",
+   "word": "马",
+   "english": "Horse",
+   "category": "animal"
+  },
+  {
+   "symbol": "羊",
+   "sound": "yáng",
+   "emoji": "🐑",
+   "word": "羊",
+   "english": "Sheep",
+   "category": "animal"
+  },
+  {
+   "symbol": "鸟",
+   "sound": "niǎo",
+   "emoji": "🐦",
+   "word": "小鸟",
+   "english": "Bird",
+   "category": "animal"
+  },
+  {
+   "symbol": "猫",
+   "sound": "māo",
+   "emoji": "🐱",
+   "word": "小猫",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "狗",
+   "sound": "gǒu",
+   "emoji": "🐶",
+   "word": "小狗",
+   "english": "Dog",
+   "category": "animal"
+  },
+  {
+   "symbol": "虎",
+   "sound": "hǔ",
+   "emoji": "🐯",
+   "word": "老虎",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "象",
+   "sound": "xiàng",
+   "emoji": "🐘",
+   "word": "大象",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "兔",
+   "sound": "tù",
+   "emoji": "🐰",
+   "word": "兔子",
+   "english": "Rabbit",
+   "category": "animal"
+  },
+  {
+   "symbol": "车",
+   "sound": "chē",
+   "emoji": "🚗",
+   "word": "汽车",
+   "english": "Car",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "船",
+   "sound": "chuán",
+   "emoji": "🚢",
+   "word": "船",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "门",
+   "sound": "mén",
+   "emoji": "🚪",
+   "word": "门",
+   "english": "Door",
+   "category": "toy"
+  },
+  {
+   "symbol": "雨",
+   "sound": "yǔ",
+   "emoji": "🌧️",
+   "word": "雨",
+   "english": "Rain",
+   "category": "nature"
+  },
+  {
+   "symbol": "星",
+   "sound": "xīng",
+   "emoji": "⭐",
+   "word": "星星",
+   "english": "Star",
+   "category": "nature"
+  },
+  {
+   "symbol": "云",
+   "sound": "yún",
+   "emoji": "☁️",
+   "word": "云",
+   "english": "Cloud",
+   "category": "nature"
+  },
+  {
+   "symbol": "口",
+   "sound": "kǒu",
+   "emoji": "👄",
+   "word": "口",
+   "english": "Mouth",
+   "category": "nature"
+  },
+  {
+   "symbol": "手",
+   "sound": "shǒu",
+   "emoji": "✋",
+   "word": "手",
+   "english": "Hand",
+   "category": "nature"
+  },
+  {
+   "symbol": "蛋",
+   "sound": "dàn",
+   "emoji": "🥚",
+   "word": "鸡蛋",
+   "english": "Egg",
+   "category": "food"
+  },
+  {
+   "symbol": "米",
+   "sound": "mǐ",
+   "emoji": "🍚",
+   "word": "米饭",
+   "english": "Rice",
+   "category": "food"
+  },
+  {
+   "symbol": "瓜",
+   "sound": "guā",
+   "emoji": "🍉",
+   "word": "西瓜",
+   "english": "Watermelon",
+   "category": "fruit"
+  }
+ ]
+}

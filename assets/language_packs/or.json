@@ -1,0 +1,229 @@
+{
+ "code": "or",
+ "letters": [
+  {
+   "symbol": "ଅ",
+   "sound": "a",
+   "emoji": "🍇",
+   "word": "ଅଙ୍ଗୁର",
+   "english": "Grapes",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ଆ",
+   "sound": "aa",
+   "emoji": "🥭",
+   "word": "ଆମ୍ବ",
+   "english": "Mango",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ଇ",
+   "sound": "i",
+   "emoji": "🧱",
+   "word": "ଇଟା",
+   "english": "Brick",
+   "category": "nature"
+  },
+  {
+   "symbol": "ଈ",
+   "sound": "ii",
+   "emoji": "🦅",
+   "word": "ଈଗଲ",
+   "english": "Eagle",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଉ",
+   "sound": "u",
+   "emoji": "🐪",
+   "word": "ଉଟ",
+   "english": "Camel",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଏ",
+   "sound": "e",
+   "emoji": "🦎",
+   "word": "ଏଣ୍ଡୁଅ",
+   "english": "Lizard",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଓ",
+   "sound": "o",
+   "emoji": "👄",
+   "word": "ଓଠ",
+   "english": "Lips",
+   "category": "nature"
+  },
+  {
+   "symbol": "କ",
+   "sound": "ka",
+   "emoji": "🍌",
+   "word": "କଦଳୀ",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ଖ",
+   "sound": "kha",
+   "emoji": "☀️",
+   "word": "ଖରା",
+   "english": "Sunshine",
+   "category": "nature"
+  },
+  {
+   "symbol": "ଗ",
+   "sound": "ga",
+   "emoji": "🐄",
+   "word": "ଗାଈ",
+   "english": "Cow",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଘ",
+   "sound": "gha",
+   "emoji": "🏠",
+   "word": "ଘର",
+   "english": "House",
+   "category": "nature"
+  },
+  {
+   "symbol": "ଚ",
+   "sound": "cha",
+   "emoji": "🐦",
+   "word": "ଚଢ଼େଇ",
+   "english": "Bird",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଛ",
+   "sound": "chha",
+   "emoji": "☂️",
+   "word": "ଛତା",
+   "english": "Umbrella",
+   "category": "toy"
+  },
+  {
+   "symbol": "ଜ",
+   "sound": "ja",
+   "emoji": "🚢",
+   "word": "ଜାହାଜ",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ଟ",
+   "sound": "ta",
+   "emoji": "🍅",
+   "word": "ଟମାଟୋ",
+   "english": "Tomato",
+   "category": "food"
+  },
+  {
+   "symbol": "ଡ",
+   "sound": "da",
+   "emoji": "🥁",
+   "word": "ଡମ୍ବରୁ",
+   "english": "Damru",
+   "category": "toy"
+  },
+  {
+   "symbol": "ତ",
+   "sound": "ta",
+   "emoji": "🍉",
+   "word": "ତରଭୁଜ",
+   "english": "Watermelon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ଦ",
+   "sound": "da",
+   "emoji": "🪔",
+   "word": "ଦୀପ",
+   "english": "Lamp",
+   "category": "nature"
+  },
+  {
+   "symbol": "ନ",
+   "sound": "na",
+   "emoji": "🥥",
+   "word": "ନଡ଼ିଆ",
+   "english": "Coconut",
+   "category": "fruit"
+  },
+  {
+   "symbol": "ପ",
+   "sound": "pa",
+   "emoji": "🐜",
+   "word": "ପିମ୍ପୁଡ଼ି",
+   "english": "Ant",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଫ",
+   "sound": "pha",
+   "emoji": "🌸",
+   "word": "ଫୁଲ",
+   "english": "Flower",
+   "category": "nature"
+  },
+  {
+   "symbol": "ବ",
+   "sound": "ba",
+   "emoji": "🐱",
+   "word": "ବିଲେଇ",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "ଭ",
+   "sound": "bha",
+   "emoji": "🐻",
+   "word": "ଭାଲୁ",
+   "english": "Bear",
+   "category": "animal"
+  },
+  {
+   "symbol": "ମ",
+   "sound": "ma",
+   "emoji": "🐟",
+   "word": "ମାଛ",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "ର",
+   "sound": "ra",
+   "emoji": "🚂",
+   "word": "ରେଳ",
+   "english": "Train",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "ଲ",
+   "sound": "la",
+   "emoji": "🍬",
+   "word": "ଲଡୁ",
+   "english": "Laddu",
+   "category": "food"
+  },
+  {
+   "symbol": "ସ",
+   "sound": "sa",
+   "emoji": "🐍",
+   "word": "ସାପ",
+   "english": "Snake",
+   "category": "animal"
+  },
+  {
+   "symbol": "ହ",
+   "sound": "ha",
+   "emoji": "🐘",
+   "word": "ହାତୀ",
+   "english": "Elephant",
+   "category": "animal"
+  }
+ ]
+}

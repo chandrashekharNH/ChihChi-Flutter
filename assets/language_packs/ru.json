@@ -1,0 +1,229 @@
+{
+ "code": "ru",
+ "letters": [
+  {
+   "symbol": "А",
+   "sound": "a",
+   "emoji": "🍉",
+   "word": "арбуз",
+   "english": "Watermelon",
+   "category": "fruit"
+  },
+  {
+   "symbol": "Б",
+   "sound": "be",
+   "emoji": "🍌",
+   "word": "банан",
+   "english": "Banana",
+   "category": "fruit"
+  },
+  {
+   "symbol": "В",
+   "sound": "ve",
+   "emoji": "🐺",
+   "word": "волк",
+   "english": "Wolf",
+   "category": "animal"
+  },
+  {
+   "symbol": "Г",
+   "sound": "ge",
+   "emoji": "🪿",
+   "word": "гусь",
+   "english": "Goose",
+   "category": "animal"
+  },
+  {
+   "symbol": "Д",
+   "sound": "de",
+   "emoji": "🏠",
+   "word": "дом",
+   "english": "House",
+   "category": "nature"
+  },
+  {
+   "symbol": "Е",
+   "sound": "ye",
+   "emoji": "🌲",
+   "word": "ель",
+   "english": "Fir tree",
+   "category": "nature"
+  },
+  {
+   "symbol": "Ж",
+   "sound": "zhe",
+   "emoji": "🦒",
+   "word": "жираф",
+   "english": "Giraffe",
+   "category": "animal"
+  },
+  {
+   "symbol": "З",
+   "sound": "ze",
+   "emoji": "🐰",
+   "word": "заяц",
+   "english": "Hare",
+   "category": "animal"
+  },
+  {
+   "symbol": "И",
+   "sound": "i",
+   "emoji": "🦃",
+   "word": "индюк",
+   "english": "Turkey",
+   "category": "animal"
+  },
+  {
+   "symbol": "К",
+   "sound": "ka",
+   "emoji": "🐱",
+   "word": "кот",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "Л",
+   "sound": "el",
+   "emoji": "🦊",
+   "word": "лиса",
+   "english": "Fox",
+   "category": "animal"
+  },
+  {
+   "symbol": "М",
+   "sound": "em",
+   "emoji": "⚽",
+   "word": "мяч",
+   "english": "Ball",
+   "category": "toy"
+  },
+  {
+   "symbol": "Н",
+   "sound": "en",
+   "emoji": "👃",
+   "word": "нос",
+   "english": "Nose",
+   "category": "nature"
+  },
+  {
+   "symbol": "О",
+   "sound": "o",
+   "emoji": "☁️",
+   "word": "облако",
+   "english": "Cloud",
+   "category": "nature"
+  },
+  {
+   "symbol": "П",
+   "sound": "pe",
+   "emoji": "🐦",
+   "word": "птица",
+   "english": "Bird",
+   "category": "animal"
+  },
+  {
+   "symbol": "Р",
+   "sound": "er",
+   "emoji": "🐟",
+   "word": "рыба",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "С",
+   "sound": "es",
+   "emoji": "🐘",
+   "word": "слон",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "Т",
+   "sound": "te",
+   "emoji": "🐯",
+   "word": "тигр",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "У",
+   "sound": "u",
+   "emoji": "🦆",
+   "word": "утка",
+   "english": "Duck",
+   "category": "animal"
+  },
+  {
+   "symbol": "Ф",
+   "sound": "ef",
+   "emoji": "🚩",
+   "word": "флаг",
+   "english": "Flag",
+   "category": "toy"
+  },
+  {
+   "symbol": "Х",
+   "sound": "kha",
+   "emoji": "🍞",
+   "word": "хлеб",
+   "english": "Bread",
+   "category": "food"
+  },
+  {
+   "symbol": "Ц",
+   "sound": "tse",
+   "emoji": "🌸",
+   "word": "цветок",
+   "english": "Flower",
+   "category": "nature"
+  },
+  {
+   "symbol": "Ч",
+   "sound": "che",
+   "emoji": "⏰",
+   "word": "часы",
+   "english": "Clock",
+   "category": "toy"
+  },
+  {
+   "symbol": "Ш",
+   "sound": "sha",
+   "emoji": "🎈",
+   "word": "шар",
+   "english": "Balloon",
+   "category": "toy"
+  },
+  {
+   "symbol": "Щ",
+   "sound": "shcha",
+   "emoji": "🐶",
+   "word": "щенок",
+   "english": "Puppy",
+   "category": "animal"
+  },
+  {
+   "symbol": "Э",
+   "sound": "e",
+   "emoji": "🍦",
+   "word": "эскимо",
+   "english": "Ice lolly",
+   "category": "food"
+  },
+  {
+   "symbol": "Ю",
+   "sound": "yu",
+   "emoji": "🪀",
+   "word": "юла",
+   "english": "Spinning top",
+   "category": "toy"
+  },
+  {
+   "symbol": "Я",
+   "sound": "ya",
+   "emoji": "🍎",
+   "word": "яблоко",
+   "english": "Apple",
+   "category": "fruit"
+  }
+ ]
+}

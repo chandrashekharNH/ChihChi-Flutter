@@ -1,0 +1,173 @@
+{
+ "code": "it",
+ "letters": [
+  {
+   "symbol": "A",
+   "sound": "a",
+   "emoji": "🐝",
+   "word": "ape",
+   "english": "Bee",
+   "category": "animal"
+  },
+  {
+   "symbol": "B",
+   "sound": "bi",
+   "emoji": "🐋",
+   "word": "balena",
+   "english": "Whale",
+   "category": "animal"
+  },
+  {
+   "symbol": "C",
+   "sound": "ci",
+   "emoji": "🐶",
+   "word": "cane",
+   "english": "Dog",
+   "category": "animal"
+  },
+  {
+   "symbol": "D",
+   "sound": "di",
+   "emoji": "🐬",
+   "word": "delfino",
+   "english": "Dolphin",
+   "category": "animal"
+  },
+  {
+   "symbol": "E",
+   "sound": "e",
+   "emoji": "🐘",
+   "word": "elefante",
+   "english": "Elephant",
+   "category": "animal"
+  },
+  {
+   "symbol": "F",
+   "sound": "effe",
+   "emoji": "🍓",
+   "word": "fragola",
+   "english": "Strawberry",
+   "category": "fruit"
+  },
+  {
+   "symbol": "G",
+   "sound": "gi",
+   "emoji": "🐱",
+   "word": "gatto",
+   "english": "Cat",
+   "category": "animal"
+  },
+  {
+   "symbol": "H",
+   "sound": "acca",
+   "emoji": "🏨",
+   "word": "hotel",
+   "english": "Hotel",
+   "category": "nature"
+  },
+  {
+   "symbol": "I",
+   "sound": "i",
+   "emoji": "🦔",
+   "word": "istrice",
+   "english": "Porcupine",
+   "category": "animal"
+  },
+  {
+   "symbol": "L",
+   "sound": "elle",
+   "emoji": "🦁",
+   "word": "leone",
+   "english": "Lion",
+   "category": "animal"
+  },
+  {
+   "symbol": "M",
+   "sound": "emme",
+   "emoji": "🍎",
+   "word": "mela",
+   "english": "Apple",
+   "category": "fruit"
+  },
+  {
+   "symbol": "N",
+   "sound": "enne",
+   "emoji": "🚢",
+   "word": "nave",
+   "english": "Ship",
+   "category": "vehicle"
+  },
+  {
+   "symbol": "O",
+   "sound": "o",
+   "emoji": "🐻",
+   "word": "orso",
+   "english": "Bear",
+   "category": "animal"
+  },
+  {
+   "symbol": "P",
+   "sound": "pi",
+   "emoji": "🐟",
+   "word": "pesce",
+   "english": "Fish",
+   "category": "animal"
+  },
+  {
+   "symbol": "Q",
+   "sound": "cu",
+   "emoji": "🖼️",
+   "word": "quadro",
+   "english": "Painting",
+   "category": "toy"
+  },
+  {
+   "symbol": "R",
+   "sound": "erre",
+   "emoji": "🐸",
+   "word": "rana",
+   "english": "Frog",
+   "category": "animal"
+  },
+  {
+   "symbol": "S",
+   "sound": "esse",
+   "emoji": "☀️",
+   "word": "sole",
+   "english": "Sun",
+   "category": "nature"
+  },
+  {
+   "symbol": "T",
+   "sound": "ti",
+   "emoji": "🐯",
+   "word": "tigre",
+   "english": "Tiger",
+   "category": "animal"
+  },
+  {
+   "symbol": "U",
+   "sound": "u",
+   "emoji": "🍇",
+   "word": "uva",
+   "english": "Grapes",
+   "category": "fruit"
+  },
+  {
+   "symbol": "V",
+   "sound": "vu",
+   "emoji": "🦊",
+   "word": "volpe",
+   "english": "Fox",
+   "category": "animal"
+  },
+  {
+   "symbol": "Z",
+   "sound": "zeta",
+   "emoji": "🦓",
+   "word": "zebra",
+   "english": "Zebra",
+   "category": "animal"
+  }
+ ]
+}
