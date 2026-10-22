@@ -30,6 +30,17 @@ class VoiceOption {
   /// 1 male, 2 female, 0 unknown.
   final int gender;
 
+  /// What a grown-up sees: iOS names ("Rishi") as they are; Android ids ("en-in-x-ene-local")
+  /// as the language and region instead ("English (IN)").
+  String get label {
+    final looksLikeID = name.contains('-') && !name.contains(' ');
+    if (!looksLikeID) return name;
+    final parts = language.split('-');
+    final known = AppLanguage.values.where((l) => l.code == parts.first.toLowerCase()).firstOrNull;
+    final base = known?.ownName ?? parts.first;
+    return parts.length > 1 ? '$base (${parts[1].toUpperCase()})' : base;
+  }
+
   /// Reads one entry of `FlutterTts.getVoices` (iOS and Android describe voices differently).
   static VoiceOption? fromPlatform(Object? raw) {
     if (raw is! Map) return null;

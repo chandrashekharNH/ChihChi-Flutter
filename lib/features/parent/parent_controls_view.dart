@@ -158,7 +158,7 @@ class _ParentControlsViewState extends State<ParentControlsView> with WidgetsBin
             ]),
           ),
         ListTile(
-          title: Text(voice?.name ?? '—'),
+          title: Text(voice?.label ?? '—'),
           trailing: Text(_quality(voice?.quality ?? 1, language), style: TextStyle(color: secondaryText(context))),
         ),
         ListTile(

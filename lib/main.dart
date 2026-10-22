@@ -76,12 +76,14 @@ class ChihChiApp extends StatefulWidget {
 class _ChihChiAppState extends State<ChihChiApp> with WidgetsBindingObserver {
   final _updates = AppUpdateService();
   late PlayerCharacterStore _characters = PlayerCharacterStore();
-  late String _activeProfile = widget.progress.activeProfileID;
+  // Set in initState: a lazy `late` initialiser would first run after a switch and read the new id.
+  late String _activeProfile;
   bool _needsChildName = false;
 
   @override
   void initState() {
     super.initState();
+    _activeProfile = widget.progress.activeProfileID;
     WidgetsBinding.instance.addObserver(this);
     _configureServices();
     widget.progress.addListener(_progressChanged);
@@ -120,6 +122,10 @@ class _ChihChiAppState extends State<ChihChiApp> with WidgetsBindingObserver {
   void didChangeAppLifecycleState(AppLifecycleState state) {
     // Throttled inside the service; quietly does nothing when offline.
     if (state == AppLifecycleState.resumed) unawaited(_updates.checkForUpdate());
+    if (state == AppLifecycleState.resumed) widget.appState.audioService.setAppInForeground(true);
+    if (state == AppLifecycleState.paused || state == AppLifecycleState.hidden) {
+      widget.appState.audioService.setAppInForeground(false);
+    }
   }
 
   @override

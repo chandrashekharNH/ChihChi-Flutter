@@ -1,4 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
+
+import 'kids_voice.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
@@ -35,7 +37,22 @@ class AudioService extends ChangeNotifier {
   /// The Parent Zone is playing a tune so a grown-up can hear it before choosing.
   bool _isPreviewing = false;
   bool _isPlaying = false;
-  bool get _shouldPlay => _isPreviewing || (_musicEnabled && _wantsMusic);
+  bool get _shouldPlay => _isInForeground && (_isPreviewing || (_musicEnabled && _wantsMusic));
+
+  /// Android keeps playing after the app leaves the screen (iOS stops it), so music and the voice
+  /// pause while ChihChi is in the background and carry on when it comes back.
+  bool _isInForeground = true;
+
+  void setAppInForeground(bool inForeground) {
+    if (_isInForeground == inForeground) return;
+    _isInForeground = inForeground;
+    if (inForeground) {
+      _playIfReady();
+    } else {
+      _halt();
+      KidsVoice.tts.stop().catchError((_) => 0);
+    }
+  }
 
   bool get musicEnabled => _musicEnabled;
   set musicEnabled(bool value) {

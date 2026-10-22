@@ -178,7 +178,7 @@ class _FullAdventureViewState extends State<FullAdventureView> {
     switch (s.kind) {
       case PurchaseStatusKind.idle:
       case PurchaseStatusKind.purchasing:
-        return entitlements.isConfirmed || entitlements.isPremium ? null : StoreText.checking.resolve(language);
+        return entitlements.isSettled || entitlements.isPremium ? null : StoreText.checking.resolve(language);
       case PurchaseStatusKind.restoring:
         return StoreText.checking.resolve(language);
       case PurchaseStatusKind.pending:

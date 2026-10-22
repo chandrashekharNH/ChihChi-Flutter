@@ -62,7 +62,9 @@ class StoreManager extends ChangeNotifier {
   Future<void> start() async {
     try {
       _updates ??= _store.purchaseStream.listen(_handle, onError: (_) {});
-      if (!await _store.isAvailable()) {
+      // A store that never answers (no Google account, no network) must not leave the price
+      // spinning: every call gives up after a while and the page says it is unavailable.
+      if (!await _store.isAvailable().timeout(_wait, onTimeout: () => false)) {
         productStatus = ProductStatus.unavailable;
         entitlements.settleWithoutAnswer();
         notifyListeners();
@@ -72,7 +74,11 @@ class StoreManager extends ChangeNotifier {
       // can ask for the Apple Account password, so it waits for the Restore button; unfinished
       // transactions still arrive through the purchase stream.
       if (Platform.isAndroid) {
-        await _queryOwned();
+        try {
+          await _queryOwned();
+        } catch (_) {
+          entitlements.settleWithoutAnswer();
+        }
       } else {
         entitlements.settleWithoutAnswer();
       }
@@ -84,9 +90,11 @@ class StoreManager extends ChangeNotifier {
     }
   }
 
+  static const _wait = Duration(seconds: 12);
+
   Future<void> _queryOwned() async {
     _owned.clear();
-    await _store.restorePurchases();
+    await _store.restorePurchases().timeout(_wait);
     // Restored purchases arrive through the stream; give them a moment.
     await Future<void>.delayed(const Duration(seconds: 2));
     await entitlements.storeAnswered(_owned.toList());
@@ -96,7 +104,7 @@ class StoreManager extends ChangeNotifier {
     productStatus = ProductStatus.loading;
     notifyListeners();
     try {
-      final response = await _store.queryProductDetails(PremiumProduct.allIDs);
+      final response = await _store.queryProductDetails(PremiumProduct.allIDs).timeout(_wait);
       fullAdventure = response.productDetails
           .where((p) => p.id == PremiumProduct.fullAdventure.id)
           .cast<ProductDetails?>()
@@ -129,7 +137,7 @@ class StoreManager extends ChangeNotifier {
     _set(const PurchaseState(PurchaseStatusKind.restoring));
     try {
       _owned.clear();
-      await _store.restorePurchases();
+      await _store.restorePurchases().timeout(_wait);
       await Future<void>.delayed(const Duration(seconds: 2));
       if (_owned.isNotEmpty || entitlements.isPremium) {
         if (_owned.isNotEmpty) await entitlements.storeAnswered(_owned.toList());

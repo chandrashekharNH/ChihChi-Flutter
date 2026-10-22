@@ -19,7 +19,7 @@ class PageHeader extends StatelessWidget {
           label: MaterialLocalizations.of(context).backButtonTooltip,
           child: GestureDetector(
             onTap: onBack,
-            child: const Icon(Icons.arrow_circle_left, size: 32, color: Colors.white),
+            child: Icon(Directionality.of(context) == TextDirection.rtl ? Icons.arrow_circle_right : Icons.arrow_circle_left, size: 32, color: Colors.white),
           ),
         ),
         Expanded(

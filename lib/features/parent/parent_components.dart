@@ -570,8 +570,10 @@ class ParentSection extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 6),
             child: Text(header!.toUpperCase(), style: TextStyle(fontSize: 13, color: secondary)),
           ),
-        Container(
-          decoration: BoxDecoration(color: parentCardColor(context), borderRadius: BorderRadius.circular(12)),
+        // A Material (not a coloured box), so the rows' tap ripples show on the card.
+        Material(
+          color: parentCardColor(context),
+          borderRadius: BorderRadius.circular(12),
           clipBehavior: Clip.antiAlias,
           child: Column(children: [
             for (var i = 0; i < children.length; i++) ...[

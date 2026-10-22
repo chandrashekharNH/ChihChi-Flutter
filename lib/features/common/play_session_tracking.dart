@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
@@ -38,7 +40,11 @@ class _PlaySessionTrackingState extends State<PlaySessionTracking> with WidgetsB
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
-    _progress.endPlaySession();
+    // Saved just after this frame: saving notifies listeners, which isn't allowed while widgets
+    // are being taken down. The time is taken now, so the session length is exact.
+    final endedAt = DateTime.now();
+    final progress = _progress;
+    scheduleMicrotask(() => progress.endPlaySession(endedAt));
     super.dispose();
   }
 

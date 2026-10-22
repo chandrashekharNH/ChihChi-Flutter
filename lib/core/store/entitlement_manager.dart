@@ -65,6 +65,10 @@ class EntitlementManager extends ChangeNotifier {
 
   /// True once the store itself has answered at least once this launch.
   bool get isConfirmed => _isConfirmed;
+
+  /// The store answered, or this launch stopped waiting for it: nothing is being checked any more.
+  bool get isSettled => _isConfirmed || _isSettled;
+  bool _isSettled = false;
   bool get isPremium => _state.isPremium;
 
   /// A purchase verified on an earlier launch: open unlocked while the store is asked again.
@@ -91,6 +95,7 @@ class EntitlementManager extends ChangeNotifier {
   /// The store has not said anything yet, but this launch is unlikely to hear more (iOS without
   /// a restore): keep a cached purchase, otherwise play as free.
   void settleWithoutAnswer() {
+    _isSettled = true;
     if (_state == EntitlementState.checking) {
       _state = EntitlementState.free;
       notifyListeners();

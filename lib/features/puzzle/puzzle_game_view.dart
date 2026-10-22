@@ -58,7 +58,11 @@ class _PuzzleGameViewState extends State<PuzzleGameView> {
     _appState.addListener(_languageChanged);
     // The home screen already checked the free uses; count this one.
     final feature = FreeFeature.forPuzzle(widget.startPuzzle, widget.startLevel);
-    if (feature != null) context.read<FreeUses>().recordUse(feature, context.read<EntitlementManager>().state);
+    if (feature != null) {
+      final uses = context.read<FreeUses>(), state = context.read<EntitlementManager>().state;
+      // After this first frame: counting notifies listeners, which can't happen mid-build.
+      WidgetsBinding.instance.addPostFrameCallback((_) => uses.recordUse(feature, state));
+    }
     _load(widget.startPuzzle, widget.startLevel);
     _appState.audioService.startBackgroundMusic();
   }

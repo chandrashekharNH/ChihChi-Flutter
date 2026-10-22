@@ -27,13 +27,17 @@ class RewardsView extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             boxShadow: [BoxShadow(color: color.withValues(alpha: 0.2), blurRadius: 8, offset: const Offset(0, 4))],
           ),
-          child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Text(emoji, style: const TextStyle(fontSize: 50)),
-            const SizedBox(height: 10),
-            Text('$count', style: kid(36, color: color)),
-            const SizedBox(height: 10),
-            Text(name, style: kid(15, weight: FontWeight.w600, color: Colors.black54)),
-          ]),
+          // Shrinks to fit small screens and large text instead of overflowing the tile.
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              Text(emoji, style: const TextStyle(fontSize: 50)),
+              const SizedBox(height: 10),
+              Text('$count', style: kid(36, color: color)),
+              const SizedBox(height: 10),
+              Text(name, style: kid(15, weight: FontWeight.w600, color: Colors.black54)),
+            ]),
+          ),
         );
 
     Widget stat(String label, String value) => Padding(
