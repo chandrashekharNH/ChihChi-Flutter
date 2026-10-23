@@ -28,6 +28,7 @@ class WordHuntView extends StatefulWidget {
 class _WordHuntViewState extends State<WordHuntView> {
   WordHuntViewModel? _vm;
   bool _showPause = false;
+  bool _pausedForLanguage = false;
   late final AppState _appState = context.read<AppState>();
   AppLanguage? _language;
 
@@ -105,7 +106,7 @@ class _WordHuntViewState extends State<WordHuntView> {
           isComplete: vm.isLevelCompleted,
           bottomInset: 50,
           child: Stack(children: [
-            Positioned.fill(child: GameView(scene: vm.scene)),
+            Positioned.fill(child: GameView(scene: vm.scene..topInset = MediaQuery.paddingOf(context).top)),
             Positioned.fill(
               child: PlayBoostHUD(
                 boost: vm.boost,
@@ -215,7 +216,18 @@ class _WordHuntViewState extends State<WordHuntView> {
                   style: kid(13, weight: FontWeight.w600, color: Colors.white.withValues(alpha: 0.75))),
             ]),
           ),
-          const LanguageSwitchButton(),
+          LanguageSwitchButton(
+            // The clock stops while the language list is open. Picking a language restarts the
+            // level, and that new level isn't paused, so resuming then does nothing.
+            onOpen: () {
+              _pausedForLanguage = _vm?.gameState is GamePlaying;
+              _vm?.pauseGame();
+            },
+            onClose: () {
+              if (_pausedForLanguage && !_showPause) _vm?.resumeGame();
+              _pausedForLanguage = false;
+            },
+          ),
           const SizedBox(width: 10),
           Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
             Text('⭐ ${vm.score}', style: kid(18, color: Colors.yellow)),

@@ -121,7 +121,7 @@ class PuzzleScene extends GameScene {
   void _applyLayout() {
     final setup = _setup;
     if (setup == null || size.width <= 0) return;
-    final available = Rect.fromLTWH(16, topInset, size.width - 32, math.max(100, size.height - topInset - bottomInset));
+    final available = Rect.fromLTWH(28, topInset, size.width - 56, math.max(100, size.height - topInset - bottomInset));
     if (size.width > size.height) {
       final side = math.min(available.height, available.width * 0.55);
       _board = Rect.fromLTWH(available.left, available.center.dy - side / 2, side, side);

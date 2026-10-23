@@ -13,7 +13,10 @@ import '../../services/progress/progress_service.dart';
 /// screen showing it restarts its level in the new language. The family's own language is listed
 /// first, then the rest in order of how near they are spoken.
 class LanguageSwitchButton extends StatelessWidget {
-  const LanguageSwitchButton({super.key});
+  const LanguageSwitchButton({super.key, this.onOpen, this.onClose});
+
+  /// Called as the language list opens and after it closes, so a timed game can pause meanwhile.
+  final VoidCallback? onOpen, onClose;
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +25,11 @@ class LanguageSwitchButton extends StatelessWidget {
       button: true,
       label: UIText.changeLanguage.resolve(appState.language),
       child: GestureDetector(
-        onTap: () => showLanguagePicker(context),
+        onTap: () async {
+          onOpen?.call();
+          await showLanguagePicker(context);
+          onClose?.call();
+        },
         child: Container(
           height: 40,
           padding: const EdgeInsets.symmetric(horizontal: 10),

@@ -234,7 +234,8 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
             },
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
-              decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.22), borderRadius: BorderRadius.circular(30)),
+              // Dark see-through pill: the background shifts colour, white text needs contrast on all of them.
+              decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.25), borderRadius: BorderRadius.circular(30)),
               child: Text('✨ ${CharacterText.createMyCharacter.resolve(language)}', style: kid(14, color: Colors.white)),
             ),
           ),
@@ -242,7 +243,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
         const SizedBox(height: 8),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 5),
-          decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.15), borderRadius: BorderRadius.circular(30)),
+          decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.18), borderRadius: BorderRadius.circular(30)),
           child: Text(UIText.world(appState.theme.id).resolve(language),
               style: kid(16, weight: FontWeight.w700, color: Colors.white.withValues(alpha: 0.85))),
         ),

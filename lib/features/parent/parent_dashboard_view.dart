@@ -15,6 +15,7 @@ import 'parent_settings_view.dart';
 import 'parent_statistics.dart';
 import 'parent_text.dart';
 import 'weekly_activity_view.dart';
+import '../common/readable_width.dart';
 
 /// Parent Dashboard home: a picture-first overview (profile, today, progress rings, the week at a
 /// glance, recent games and rewards). Deeper screens are pushed from here.
@@ -78,7 +79,7 @@ class _ParentDashboardViewState extends State<ParentDashboardView> {
                 ]),
               ),
             ),
-          DashboardLoadState.ready => ListView(padding: const EdgeInsets.all(16), children: [
+          DashboardLoadState.ready => ListView(padding: readablePadding(context), children: [
               if (update != null) ...[_updateBanner(update, language), const SizedBox(height: 16)],
               _hero(language),
               const SizedBox(height: 16),

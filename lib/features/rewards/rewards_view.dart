@@ -62,7 +62,8 @@ class RewardsView extends StatelessWidget {
           Expanded(
             child: ListView(padding: const EdgeInsets.all(20), children: [
               GridView.count(
-                crossAxisCount: 2,
+                // Four across on tablets so the tiles stay a sensible size.
+                crossAxisCount: MediaQuery.sizeOf(context).width >= 700 ? 4 : 2,
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 mainAxisSpacing: 16,

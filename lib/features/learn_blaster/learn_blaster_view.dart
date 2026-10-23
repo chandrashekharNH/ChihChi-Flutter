@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/app_state.dart';
@@ -76,7 +77,10 @@ class _LearnBlasterViewState extends State<LearnBlasterView> {
     final vm = _vm;
     if (vm == null) return const Scaffold(backgroundColor: Color(0xFFC2E0FF));
     final language = _appState.language;
-    return Scaffold(
+    // The playroom is light, so the status bar needs dark icons to stay readable.
+    return AnnotatedRegion<SystemUiOverlayStyle>(
+      value: SystemUiOverlayStyle.dark,
+      child: Scaffold(
       backgroundColor: const Color(0xFFC2E0FF),
       body: PlayerBuddyOverlay(
         correct: vm.correctAnswers,
@@ -119,6 +123,7 @@ class _LearnBlasterViewState extends State<LearnBlasterView> {
               },
             ),
         ]),
+      ),
       ),
     );
   }

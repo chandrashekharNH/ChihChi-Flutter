@@ -10,6 +10,7 @@ import '../../domain/models/home_game.dart';
 import '../home/home_game_text.dart';
 import 'parent_statistics.dart';
 import 'parent_text.dart';
+import '../common/readable_width.dart';
 
 // Colourful, picture-first building blocks shared by the Parent Zone screens. Text uses the
 // system's text sizes and the card colours follow the light or dark theme.
@@ -610,6 +611,6 @@ class ParentPage extends StatelessWidget {
           actions: actions,
           leading: leading,
         ),
-        body: ListView(padding: const EdgeInsets.only(top: 12, bottom: 30), children: children),
+        body: ListView(padding: readablePadding(context, horizontal: 0, top: 12, bottom: 30), children: children),
       );
 }

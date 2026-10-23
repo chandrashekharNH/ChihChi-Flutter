@@ -618,6 +618,8 @@ class _ARExplorerIntroViewState extends State<ARExplorerIntroView> with SingleTi
     final icon = widget.subtitle == null ? ARExplorerLevel.level(widget.levelNumber)?.icon ?? '🌎' : '🏡';
     return Scaffold(
       body: Container(
+        // Fill the screen: the scroll view below only takes its content's height.
+        constraints: const BoxConstraints.expand(),
         decoration: const BoxDecoration(
           gradient: LinearGradient(colors: [Color(0xFF5C4DE6), Color(0xFF339EE6)], begin: Alignment.topCenter, end: Alignment.bottomCenter),
         ),

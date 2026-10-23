@@ -7,6 +7,7 @@ import 'parent_components.dart';
 import 'parent_dashboard_view.dart';
 import 'parent_statistics.dart';
 import 'parent_text.dart';
+import '../common/readable_width.dart';
 
 /// The week in pictures: minutes per day by game, streak dots, time by game, screen time and
 /// gentle insights shown as accuracy rings.
@@ -24,7 +25,7 @@ class WeeklyActivityView extends StatelessWidget {
           title: Text(ParentText.weeklyActivity.resolve(language)),
           backgroundColor: parentBackground(context),
           scrolledUnderElevation: 0),
-      body: ListView(padding: const EdgeInsets.all(16), children: [
+      body: ListView(padding: readablePadding(context), children: [
         ParentCard(
           title: ParentText.weeklyActivity.resolve(language),
           icon: Icons.bar_chart,

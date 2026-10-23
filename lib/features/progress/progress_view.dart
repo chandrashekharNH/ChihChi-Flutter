@@ -9,6 +9,7 @@ import '../../services/audio/audio_service.dart';
 import '../../services/progress/progress_service.dart';
 import '../common/breathing_background.dart';
 import '../common/page_header.dart';
+import '../common/readable_width.dart';
 
 class ProgressView extends StatelessWidget {
   const ProgressView({super.key});
@@ -137,7 +138,7 @@ class ProgressView extends StatelessWidget {
             },
           ),
           Expanded(
-            child: ListView(padding: const EdgeInsets.all(20), children: [
+            child: ListView(padding: readablePadding(context, horizontal: 20, top: 20, bottom: 20), children: [
               profile,
               const SizedBox(height: 20),
               worlds,

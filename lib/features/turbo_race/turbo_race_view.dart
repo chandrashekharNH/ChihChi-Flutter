@@ -66,6 +66,9 @@ class _TurboRaceViewState extends State<TurboRaceView> with WidgetsBindingObserv
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    // edgeToEdge alone does not bring back bars hidden by immersive mode on Android,
+    // so show them first, then go back to drawing behind them.
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: SystemUiOverlay.values);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     _appState.audioService.stopBackgroundMusic();
     _vm?.removeListener(_changed);

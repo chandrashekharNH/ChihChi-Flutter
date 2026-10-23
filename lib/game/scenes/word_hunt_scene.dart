@@ -22,7 +22,13 @@ class WordHuntScene extends GameScene {
   void Function(String id, bool correct)? onObjectTapped;
   void Function()? onRoundExpired;
 
-  static const _topSafe = 150.0, _bottomSafe = 80.0;
+  static const _bottomSafe = 80.0;
+
+  /// The status bar height, set by the view. The "Find this" banner sits below it.
+  double topInset = 0;
+
+  /// Pictures stay below the top bar and the "Find this" banner.
+  double get _topSafe => 172 + topInset;
 
   List<ARHuntObject> _objects = [];
   String _targetID = '';
@@ -196,7 +202,7 @@ class WordHuntScene extends GameScene {
     if (!_roundActive) return;
     const left = 0.0;
     final right = size.width;
-    const top = _topSafe;
+    final top = _topSafe;
     final bottom = size.height - _bottomSafe;
     for (final node in List.of(_nodes)) {
       if (!node.isActive) continue;

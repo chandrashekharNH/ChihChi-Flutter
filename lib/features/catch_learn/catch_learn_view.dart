@@ -32,6 +32,7 @@ class CatchLearnView extends StatefulWidget {
 class _CatchLearnViewState extends State<CatchLearnView> {
   CatchLearnViewModel? _vm;
   bool _showPause = false;
+  bool _pausedForLanguage = false;
 
   /// World introduction shown before the first level of a world is played.
   CatchLetterBatch? _introBatch;
@@ -195,7 +196,18 @@ class _CatchLearnViewState extends State<CatchLearnView> {
           ],
           HudChip(child: Row(children: [const Text('⭐', style: TextStyle(fontSize: 14)), const SizedBox(width: 4), Text('$stars', style: kid(13, weight: FontWeight.w700, color: Colors.yellow))])),
           const SizedBox(width: 8),
-          const LanguageSwitchButton(),
+          LanguageSwitchButton(
+            // The clock stops while the language list is open. Picking a language restarts the
+            // level, and that new level isn't paused, so resuming then does nothing.
+            onOpen: () {
+              _pausedForLanguage = _vm?.gameState is GamePlaying;
+              _vm?.pauseGame();
+            },
+            onClose: () {
+              if (_pausedForLanguage && !_showPause) _vm?.resumeGame();
+              _pausedForLanguage = false;
+            },
+          ),
         ]),
       ),
       if (vm.prompt != null) IgnorePointer(child: _letterDisplay(vm.prompt!, language)),

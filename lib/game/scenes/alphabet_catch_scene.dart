@@ -181,9 +181,13 @@ class AlphabetCatchScene extends GameScene {
     for (final b in _barriers) {
       b.age += dt;
     }
-    const xMin = 50.0, yMin = 50.0;
-    final xMax = size.width - 50, yMax = size.height - 50;
     for (final node in List.of(_bubbles)) {
+      // Walls sit one bubble radius in from the edges so the whole bubble stays on screen
+      // (bubbles are bigger on tablets). The top wall clears the pause/level bar and the
+      // bottom wall leaves room for the word under a picture bubble.
+      final r = node.radius;
+      final xMin = r + 8, xMax = math.max(xMin, size.width - r - 8);
+      final yMin = r + 76, yMax = math.max(yMin, size.height - r - 24);
       node.update(dt);
       if (node.state == BubbleState.gone) {
         _bubbles.remove(node);

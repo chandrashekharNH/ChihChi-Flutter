@@ -11,6 +11,7 @@ import '../home/home_game_text.dart';
 import 'parent_components.dart';
 import 'parent_statistics.dart';
 import 'parent_text.dart';
+import '../common/readable_width.dart';
 
 /// One game in pictures: a completion ring, the last seven days, performance and a level map.
 class GameProgressDetailView extends StatelessWidget {
@@ -25,7 +26,7 @@ class GameProgressDetailView extends StatelessWidget {
     return Scaffold(
       backgroundColor: parentBackground(context),
       appBar: AppBar(title: Text(game.title(language)), backgroundColor: parentBackground(context), scrolledUnderElevation: 0),
-      body: ListView(padding: const EdgeInsets.all(16), children: [
+      body: ListView(padding: readablePadding(context), children: [
         _header(language),
         const SizedBox(height: 16),
         _recentDays(context, language),

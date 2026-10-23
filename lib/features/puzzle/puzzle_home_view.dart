@@ -89,6 +89,18 @@ class _PuzzleHomeViewState extends State<PuzzleHomeView> {
     final uses = context.watch<FreeUses>();
     WidgetsBinding.instance.addPostFrameCallback((_) => _measureBar());
 
+    final wide = MediaQuery.sizeOf(context).width >= 900;
+    // My Photo Puzzle is free 10 times; after that it asks a grown-up first.
+    final photoCard = PhotoPuzzleCard(
+      isCompact: true,
+      isLocked: !uses.allows(FreeFeature.photoPuzzle, state),
+      onLocked: () => _showUnlock(forFreeUses: true),
+      onPhoto: (photo) {
+        final names = {for (final l in AppLanguage.values) l: UIText.myPhoto.resolve(l)};
+        _play(PuzzleDefinition.photo(photo, names), null);
+      },
+    );
+
     final bar = RouteMapTopBar(
       key: _barKey,
       title: '🧩 ${UIText.gameTitle(GameType.buildPicture).resolve(language)}',
@@ -98,18 +110,19 @@ class _PuzzleHomeViewState extends State<PuzzleHomeView> {
       },
       trailing: const [LanguageSwitchButton()],
       accessory: Column(mainAxisSize: MainAxisSize.min, children: [
-        _difficultyPicker(progress, language),
-        const SizedBox(height: 8),
-        // My Photo Puzzle is free 10 times; after that it asks a grown-up first.
-        PhotoPuzzleCard(
-          isCompact: true,
-          isLocked: !uses.allows(FreeFeature.photoPuzzle, state),
-          onLocked: () => _showUnlock(forFreeUses: true),
-          onPhoto: (photo) {
-            final names = {for (final l in AppLanguage.values) l: UIText.myPhoto.resolve(l)};
-            _play(PuzzleDefinition.photo(photo, names), null);
-          },
-        ),
+        // On wide screens (tablets in landscape) difficulty and photo share one row so the
+        // header leaves more of the map visible.
+        if (wide)
+          Row(children: [
+            SizedBox(width: 480, child: _difficultyPicker(progress, language)),
+            const SizedBox(width: 12),
+            Expanded(child: photoCard),
+          ])
+        else ...[
+          _difficultyPicker(progress, language),
+          const SizedBox(height: 8),
+          photoCard,
+        ],
         const SizedBox(height: 8),
         _tabPicker(uses.allows(FreeFeature.freePlay, state), language),
       ]),
